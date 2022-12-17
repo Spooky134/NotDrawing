@@ -1,0 +1,57 @@
+﻿<Window x:Class="NotDrawing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NotDrawing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" BorderBrush="#FF003978">
+    <Window.Resources>
+        <Style TargetType="RadioButton" BasedOn="{StaticResource {x:Type ToggleButton}}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <ToggleButton Background="#FF2B2C2D" Foreground="White" IsChecked="{Binding IsChecked, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}"
+                        Content="{Binding Content, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Background="#FF2B2C2D">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="canvas" Grid.Row="0" Background="#FF2B2C2D" MouseDown="Canvas_MouseDown" MouseUp="Canvas_MouseUp"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Content="Read" Grid.Column="0" Background="#FF2B2C2D" FontSize="16" FontWeight="Bold" Foreground="#FF247FC3" Click="ReadButton_Click" />
+                <Button Content="Save" Grid.Column="1" Background="#FF2B2C2D" FontSize="16" FontWeight="Bold" Foreground="#FF247FC3" Click="SaveButton_Click" />
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <RadioButton x:Name="Bline" Grid.Column="0" Background="#FF2B2C2D" Foreground="White" Content="Line" FontSize="16" FontWeight="Bold" Checked="RadioButton_Checked"/>
+                <RadioButton x:Name="Btriangle" Grid.Column="1" Background="#FF2B2C2D" Foreground="White" Content="Triangle" FontSize="16" FontWeight="Bold" Checked="RadioButton_Checked"/>
+                <RadioButton x:Name="Brectangle" Grid.Column="2" Background="#FF2B2C2D" Foreground="White" Content="Rectangle" FontSize="16" FontWeight="Bold" Checked="RadioButton_Checked"/>
+                <RadioButton x:Name="Bcircle" Grid.Column="3" Background="#FF2B2C2D" Foreground="White" Content="Circle" FontSize="16" FontWeight="Bold" Checked="RadioButton_Checked"/>
+                <Button Content="Clear" Grid.Column="4" Background="#FF2B2C2D" FontSize="16" FontWeight="Bold" Foreground="#FF901B1B" Click="Button_Click" />
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

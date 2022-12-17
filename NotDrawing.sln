@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotDrawing", "NotDrawing\NotDrawing.csproj", "{189D0AEA-8B5D-4D2F-AAB1-A33964329E08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotRectangles", "NotRectangles\NotRectangles.csproj", "{F678A136-B4D9-4810-A4CE-91B2C2C428CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotShapes", "NotShapes\NotShapes.csproj", "{9D41A8C6-38E6-43CA-A2FA-FCC6049B87E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotCircles", "NotCircles\NotCircles.csproj", "{FE46A0C2-B866-4B8B-B45D-71F32EA80750}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotTriangles", "NotTriangles\NotTriangles.csproj", "{211702F0-C5C9-4E59-94C6-C304B6C9C267}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotLines", "NotLines\NotLines.csproj", "{C413A498-A1C9-4DDE-8DEC-2DB04FD886EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{189D0AEA-8B5D-4D2F-AAB1-A33964329E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189D0AEA-8B5D-4D2F-AAB1-A33964329E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189D0AEA-8B5D-4D2F-AAB1-A33964329E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189D0AEA-8B5D-4D2F-AAB1-A33964329E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F678A136-B4D9-4810-A4CE-91B2C2C428CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F678A136-B4D9-4810-A4CE-91B2C2C428CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F678A136-B4D9-4810-A4CE-91B2C2C428CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F678A136-B4D9-4810-A4CE-91B2C2C428CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D41A8C6-38E6-43CA-A2FA-FCC6049B87E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D41A8C6-38E6-43CA-A2FA-FCC6049B87E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D41A8C6-38E6-43CA-A2FA-FCC6049B87E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D41A8C6-38E6-43CA-A2FA-FCC6049B87E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE46A0C2-B866-4B8B-B45D-71F32EA80750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE46A0C2-B866-4B8B-B45D-71F32EA80750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE46A0C2-B866-4B8B-B45D-71F32EA80750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE46A0C2-B866-4B8B-B45D-71F32EA80750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211702F0-C5C9-4E59-94C6-C304B6C9C267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211702F0-C5C9-4E59-94C6-C304B6C9C267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211702F0-C5C9-4E59-94C6-C304B6C9C267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211702F0-C5C9-4E59-94C6-C304B6C9C267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C413A498-A1C9-4DDE-8DEC-2DB04FD886EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C413A498-A1C9-4DDE-8DEC-2DB04FD886EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C413A498-A1C9-4DDE-8DEC-2DB04FD886EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C413A498-A1C9-4DDE-8DEC-2DB04FD886EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E44E5D4C-0F9F-4AA4-8FB8-D1C7488F47E8}
+	EndGlobalSection
+EndGlobal
